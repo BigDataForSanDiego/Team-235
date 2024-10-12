@@ -1,16 +1,12 @@
-# Team-235
-AlgoTech
+# 2024 BIG DATA HACKATHON PROPOSAL FORM
 
-2022 BIG DATA HACKATHON PROPOSAL FORM
+# Team Number: 235
 
-Team Number: 235
+# Team Name: AlgoTech
 
-Team Name: AlgoTech
+#Your team’s hackathon idea in One Sentence: 
 
-Your team’s hackathon idea in One Sentence: A medical prescription image processing and text analysis model that analyzes a doctor's prescription and increases user accessibility for senior citizens.
-
-
-YOUR ONE SENTENCE HERE
+A medical prescription image processing and text analysis model that analyzes a doctor's prescription and increases user accessibility for senior citizens.
 
 A visual
 
