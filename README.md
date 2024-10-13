@@ -36,6 +36,6 @@ How can we leverage technology to improve healthcare access for rural and remote
 How can big (geospatial) data analytics and AI be used to improve access to information about the influence of human behavior, cultural practices, and social interactions on the spread of diseases?
  Addressing environmental health disparities (For Geocomputational Thinker Awards)
 How can we leverage big (geospatial) data analytics and AI to improve access to resources that mitigate the impact of environmental factors, i.e. pollution, on health disparities?
-Team Coordinator GitHub Username: jkeus (Jackson Keus)
+Team Coordinator GitHub Username: VedVar43789
 
-Team Members BriannavLy (Brianna Ly), byrontran (Byron Tran), OpsCToxic (Cameron Cobb)
+Team Members: Vedant Vardhaan (VedVar43789), Divyansh Kanodia (anigmea), Ishaan Gosain (igosain08)
