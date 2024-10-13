@@ -1,31 +1,41 @@
-# 2024 BIG DATA HACKATHON PROPOSAL FORM
+2024 BIG DATA HACKATHON PROPOSAL FORM
 
-# Team Number: 235
+Team Number: Team 235
 
-# Team Name: AlgoTech
+Team Name: AlgoTech
 
-#Your team’s hackathon idea in One Sentence: 
+Your team's hackathon idea in One sentence:
 
-A medical prescription image processing and text analysis model that analyzes a doctor's prescription and increases user accessibility for senior citizens.
+Building a prescription analyzer to enhance the user interface to make the lives of senior citizens easier.
 
 A visual
 
-bigdatahackathon4sd
 
-hdma
 
-Hackathon Theme(s) (check a box(es))
+bigdatahackathon4sd HDMA
 
- Artificial Intelligence/Machine Learning
-How can we leverage AI/ML Algorithms to help support diagnostics, clinical decisions, and forecast staffing and hospital capacity?
- Mobile
-Designing Mobile Apps to improve user experience before, during, and after a healthcare visit.
- Patient experience
-How do you incorporate the patient perspective through the intersection of patient, provider, and community data into care plans.
- Health Disparities
-What is the role of big data and analytics in addressing health disparities among vulnerable and minority populations in San Diego County.
- Privacy and Security
-How can we increase data privacy and enhance cybersecurity measures in the release, exchange and use of healthcare data, both locally and nationally.
-Team Coordinator GitHub Username: YOUR TEAM COORDINATOR GITHUB USERNAME HERE
+Hackathon Five CORE Themes. CHECK ONE or TWO QUESTIONS (insert X in [ ]).
 
-Team Members YOUR TEAM MEMBERS NAME & GITHUB USERNAME HERE
+ Access to care
+How can we make it easier to access care (especially specialists) and provide clear, timely notifications, and reminders along their healthcare journey?
+ Patient satisfaction
+How can we make it more convenient for patients to provide real-time feedback about their healthcare experience through a mobile app?
+ New patient experience
+As a potential new customer, how can we leverage the mobile app to help new patients better understand what services are available to them?
+ Managing my health
+Itâ€™s easy to get overwhelmed by all the tasks patients often have to do to maintain their health, how can we make managing health more enjoyable?
+ Addressing mental health challenges
+Mental health challenges may be difficult to identify and have a broad impact on health, how can we help clinicians be more in tune with patients mental health needs?
+Optional Questions. TEAMS CAN SELECT ONE ADDITIONAL OPTIONAL QUESTION (insert X in [ ])
+
+ Cultural Competence in Healthcare
+How can we design a mobile app that helps healthcare providers better understand and respect cultural differences, improving communication and care for diverse patient populations?
+ Access to Care for Rural and Remote Communities
+How can we leverage technology to improve healthcare access for rural and remote communities, ensuring timely and specialized care for those in underserved areas? (Focus on SDSU Imperial Valley Connection - Rural/Remote)
+ Enhancing disease prevention (For Geocomputational Thinker Awards)
+How can big (geospatial) data analytics and AI be used to improve access to information about the influence of human behavior, cultural practices, and social interactions on the spread of diseases?
+ Addressing environmental health disparities (For Geocomputational Thinker Awards)
+How can we leverage big (geospatial) data analytics and AI to improve access to resources that mitigate the impact of environmental factors, i.e. pollution, on health disparities?
+Team Coordinator GitHub Username: jkeus (Jackson Keus)
+
+Team Members BriannavLy (Brianna Ly), byrontran (Byron Tran), OpsCToxic (Cameron Cobb)
