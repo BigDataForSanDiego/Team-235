@@ -43,4 +43,4 @@
 
 #### Team Coordinator GitHub Username: `VedVar43789`
 
-#### Team Members `Divyansh Kanodia: Anigema, Ishaan Gosain: Igosain08, Vednat Vardhaan: VedVar43789`
+#### Team Members `Divyansh Kanodia: Anigema, Ishaan Gosain: Igosain08, Vedant Vardhaan: VedVar43789`
