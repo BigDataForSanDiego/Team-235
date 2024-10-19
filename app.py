@@ -25,7 +25,7 @@ st.title("AI Blood Report Analysis Assistant")
 st.write("Upload your blood reports and receive insights based on the data. This tool is designed to help analyze blood test results and provide suggestions. If you notice any abnormal values, we recommend consulting a healthcare professional.")
 
 ## Input the Groq API Key
-api_key=st.text_input("Enter your Groq API key:",type="password")
+api_key= "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"
 
 ## Check if groq api key is provided
 if api_key:
@@ -57,7 +57,7 @@ if api_key:
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=5000, chunk_overlap=500)
         splits = text_splitter.split_documents(documents)
         vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings, persist_directory="./chroma")
-        retriever = vectorstore.as_retriever()    
+        retriever = vectorstore.as_retriever()   
 
         contextualize_q_system_prompt = (
     "You are an AI assistant tasked with analyzing blood reports and providing concise, non-diagnostic insights based on the data. "
@@ -79,15 +79,19 @@ if api_key:
         ## Answer question
 
         # Answer question
+        
         system_prompt = (
-                "You are an assistant for question-answering tasks. "
+        "You are an assistant for question-answering tasks. "
                 "Use the following pieces of retrieved context to answer "
                 "the question. If you don't know the answer, say that you "
                 "don't know. Use three sentences maximum and keep the "
                 "answer concise."
                 "\n\n"
-                "{context}"
-            )
+                                "{context}"
+)
+
+
+
         qa_prompt = ChatPromptTemplate.from_messages(
                 [
                     ("system", system_prompt),
@@ -95,9 +99,12 @@ if api_key:
                     ("human", "{input}"),
                 ]
             )
+       
+
         
         question_answer_chain=create_stuff_documents_chain(llm,qa_prompt)
-        rag_chain=create_retrieval_chain(history_aware_retriever,question_answer_chain)
+       
+        rag_chain = create_retrieval_chain(history_aware_retriever, question_answer_chain)
 
         def get_session_history(session:str)->BaseChatMessageHistory:
             if session_id not in st.session_state.store:
@@ -120,9 +127,9 @@ if api_key:
                     "configurable": {"session_id":session_id}
                 },  # constructs a key "abc123" in `store`.
             )
-            st.write(st.session_state.store)
+            #st.write(st.session_state.store)
             st.write("Assistant:", response['answer'])
-            #st.write("Chat History:", session_history.messages)
+            st.write("Chat History:", session_history.messages)
 else:
     st.warning("Please enter the GRoq API Key")
 
